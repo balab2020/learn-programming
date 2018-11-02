@@ -1,5 +1,7 @@
 # How to define variable
 
+> private, public, protected, constant, static, string, numbers, array, boolean ...etc
+
 ## JavaScript 
 
 ```js
@@ -30,10 +32,10 @@ class ConsoleApplication
     public decimal[] DecimalArray = new decimal[0];
     
     public bool Boolean = true;//false
-    
-    public const float PI = 3.14;
-    
-    public static CLASS_NAME  = "ConsoleApplication";
+    //constant
+    public const float PI = 3.14; 
+    //static
+    public static CLASS_NAME  = "ConsoleApplication"; 
     
     static void Main(string[] args)
     {    	
