@@ -3,13 +3,17 @@
 ## JavaScript 
 
 ```js
-//ES-5
-var helloWorld = "Hello World";
-
-//ES-6
-const helloWorld = "Hello World";
-//or
-let helloWorld = "Hello World";
+var a;                          // variable
+var b = "hello";                // string
+var c = "Hi" + " " + "Bala";    // = "Hi Bala"
+var d = 1 + 2 + "3";            // = "33"
+var e = [2,3,5,8];              // array
+var f = false;                  // boolean
+var g = /()/;                   // RegEx
+var h = function(){};           // function object
+const PI = 3.14;                // constant
+var a = 1, b = 2, c = a + b;    // one line
+let z = 'zzz';                  // block scope local variable
 ```
 
 ## C#
@@ -19,14 +23,21 @@ class ConsoleApplication
 {
     private string _private = 'private';    
     
-    protected string Protected = 'protected';
+    protected int Protected = 1;
     
-    public string Public = 'public';
+    public float Public = 1.0;
+    
+    public decimal[] DecimalArray = new decimal[0];
+    
+    public bool Boolean = true;//false
+    
+    public const float PI = 3.14;
+    
+    public static CLASS_NAME  = "ConsoleApplication";
     
     static void Main(string[] args)
-    {
-    	//local variable
-	var helloWorld = "Hello World";	
+    {    	
+	var local_variable = "local variable";	
     }
 }
 ```
@@ -35,4 +46,6 @@ class ConsoleApplication
 
 ```python
 helloWorld = "Hello World";
+one, two = 1,'two'
+null = undefined = None
 ```
