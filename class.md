@@ -4,8 +4,8 @@
 
 ```
 Class Rectange {
-  height:integer;
-  width:integer;
+  height:number;
+  width:number;
   getArea : function()
   {
   }
