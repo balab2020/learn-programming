@@ -76,13 +76,13 @@ switch(message_type)
 {
    case 'error':
     print_message(message, 'red');
-   break;
+    break;
    case 'warning':
     print_message(message, 'orange');
-   break;
+    break;
    default:
     print_message(message, 'blue');
-   break;     
+    break;     
 }
 ```
 
@@ -93,32 +93,29 @@ switch(message_type)
 ```js
 let message_type = 'error', message = 'yes, you have learnt something!!!';
 
-function print_message(message, color)
-{
-  //prints on some output device
-}
 switch(message_type)
 {
    case 'error':
     print_message(message, 'red');
-   break;
+    break;
    case 'warning':
     print_message(message, 'orange');
-   break;
+    break;
    default:
     print_message(message, 'blue');
-   break;     
+    break;     
+}
+
+function print_message(message, color)
+{
+  //prints on some output device
 }
 ```
 
 ### csharp
 
 ```csharp
-class SwitchCase {
-  private void print_message(message, color)
-  {
-    //prints on some output device
-  }
+class SwitchCase {  
   public void Print()
   {
      string message_type = 'error', message = 'yes, you have learnt something!!!';
@@ -126,14 +123,19 @@ class SwitchCase {
      {
         case 'error':
          print_message(message, 'red');
-        break;
+         break;
         case 'warning':
          print_message(message, 'orange');
-        break;
+         break;
         default:
          print_message(message, 'blue');
-        break;     
+         break;     
      }
+  }
+  
+  private void print_message(message, color)
+  {
+    //prints on some output device
   }
 }
 ```
