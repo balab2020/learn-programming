@@ -16,3 +16,8 @@
 |logical or| a \|\| b |||
 |logical not| !(a \|\| b) |||
 |grouping| a * (b + c) |||
+|addition| a + b |||
+|subtraction| a - b |||
+|multiplication| a * b |||
+|division| a / b |||
+|string concat| 'hello ' + 'world' |||
