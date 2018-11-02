@@ -2,7 +2,7 @@
 
 > private, public, protected, constant, static, string, numbers, array, boolean ...etc
 
-## JavaScript 
+## javascript 
 
 ```js
 var a;                          // variable
@@ -19,7 +19,7 @@ let z = 'zzz';                  // block scope local variable
 let Null = null, Undefined = undefined;
 ```
 
-## C#
+## csharp
 
 ```csharp
 class ConsoleApplication 
@@ -50,7 +50,7 @@ class ConsoleApplication
 }
 ```
 
-## Python
+## python
 
 ```python
 helloWorld = "Hello World";
