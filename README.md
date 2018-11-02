@@ -4,7 +4,7 @@
 
 I assume, you are already familiar with one programming language and may want to learn other one. This repository has markdown files catogorized with different concepts from data types, oops..etc. My plan is create one use case and try to achieve the same with different languages.
 
-Let get start with **Hello World** here.
+If you want to learn any programming language, just start with saying hello to the world. Lets get started with saying "Hello World".
 
 ## c#
 
