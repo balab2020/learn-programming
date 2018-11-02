@@ -15,5 +15,5 @@
 ## python
 
 ```python
-//code
+#code
 ```
