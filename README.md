@@ -13,8 +13,7 @@ class ConsoleApplication
 {
     static void Main(string[] args)
     {
-	    var helloWorld = "Hello World";
-		Console.WriteLine(helloWorld);
+	Console.WriteLine("Hello World");
     }
 }
 ```
@@ -22,13 +21,11 @@ class ConsoleApplication
 ## javascipt
 
 ```js
-const helloworld = 'Hello World';
-console.log(helloworld);
+console.log('Hello World');
 ```
 
 ## python
 
 ```python
-helloWorld = "Hello World";
-print(helloWorld);
+print('Hello World');
 ```
