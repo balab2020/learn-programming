@@ -29,3 +29,12 @@ console.log('Hello World');
 ```python
 print('Hello World');
 ```
+## java
+
+```java
+public class Console {
+    public static void main(String[] args) {        
+        System.out.println("Hello World");
+    }
+}
+```
