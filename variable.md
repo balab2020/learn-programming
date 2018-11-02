@@ -16,6 +16,7 @@ var h = function(){};           // function object
 const PI = 3.14;                // constant
 var a = 1, b = 2, c = a + b;    // one line
 let z = 'zzz';                  // block scope local variable
+let Null = null, Undefined = undefined;
 ```
 
 ## C#
@@ -32,10 +33,15 @@ class ConsoleApplication
     public decimal[] DecimalArray = new decimal[0];
     
     public bool Boolean = true;//false
+    
     //constant
     public const float PI = 3.14; 
+    
     //static
     public static CLASS_NAME  = "ConsoleApplication"; 
+    
+    //string initialized with null
+    public string NullVariable = null;
     
     static void Main(string[] args)
     {    	
@@ -49,5 +55,5 @@ class ConsoleApplication
 ```python
 helloWorld = "Hello World";
 one, two = 1,'two'
-null = undefined = None
+null = undefined = None #None is equal to null/undefined in python
 ```
