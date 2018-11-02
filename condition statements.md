@@ -15,7 +15,7 @@
    AllowWithConcern();
 ```
 
-## javascript
+### javascript
 
 ```js
  //code
@@ -29,7 +29,7 @@
  }
 ```
 
-## csharp
+### csharp
 
 ```csharp
 class Account {
@@ -51,7 +51,7 @@ class Account {
 }
 ```
 
-## python
+### python
 
 ```python
 balance, debit = 1000, 10000
@@ -61,4 +61,85 @@ elif (balance < debit):
     print('you are eligible !!!')
 else:
     print('balance is same as debit amount request, reduce debit request')
+```
+
+## Switch..Case
+
+```
+variable message_type = 'error', message = 'yes, you have learnt something!!!';
+
+Function print_message(message, color)
+{
+  //prints on some output device
+}
+switch(message_type)
+{
+   case 'error':
+    print_message(message, 'red');
+   break;
+   case 'warning':
+    print_message(message, 'orange');
+   break;
+   default:
+    print_message(message, 'blue');
+   break;     
+}
+```
+
+
+
+### javascript
+
+```js
+let message_type = 'error', message = 'yes, you have learnt something!!!';
+
+function print_message(message, color)
+{
+  //prints on some output device
+}
+switch(message_type)
+{
+   case 'error':
+    print_message(message, 'red');
+   break;
+   case 'warning':
+    print_message(message, 'orange');
+   break;
+   default:
+    print_message(message, 'blue');
+   break;     
+}
+```
+
+### csharp
+
+```csharp
+class SwitchCase {
+  private void print_message(message, color)
+  {
+    //prints on some output device
+  }
+  public void Print()
+  {
+     string message_type = 'error', message = 'yes, you have learnt something!!!';
+     switch(message_type)
+     {
+        case 'error':
+         print_message(message, 'red');
+        break;
+        case 'warning':
+         print_message(message, 'orange');
+        break;
+        default:
+         print_message(message, 'blue');
+        break;     
+     }
+  }
+}
+```
+
+### python
+
+```python
+#no native support, geeks reolve this with ifElse or dictionary
 ```
