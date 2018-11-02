@@ -1,18 +1,18 @@
 # Sum of 2 Numbers
 
 Function which accepts two numbers as arguments and return the sum.
-
+```
 Function(A, B)
 START
-	RETURN (A+B)
+     RETURN (A+B)
 END
-
+```
 ## JavaScript 
 
 ```js
 function sum(a,b)
 {
-	return (a+b);
+   return (a+b);
 }
 
 //or
@@ -27,7 +27,7 @@ class Calculator
 {
     public int Sum(int a, int b)
     {
-	    return (a+b);
+	return (a+b);
     }
 }
 ```
