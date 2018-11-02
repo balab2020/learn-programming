@@ -1,5 +1,7 @@
 # Class
 
+> It is blue print of object
+
 ## Basic
 
 ```
