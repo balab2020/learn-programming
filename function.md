@@ -1,6 +1,8 @@
-# How to define function
+# function
 
-> Sum of 2 Numbers
+> A function relates an input to an output. A function uses given inputs with some logic and produces desired output.
+
+**Use case: Sum of 2 Numbers**
 
 Function which accepts two numbers as arguments and return the sum.
 ```
