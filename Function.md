@@ -1,4 +1,6 @@
-# Sum of 2 Numbers
+# How to define function
+
+> Sum of 2 Numbers
 
 Function which accepts two numbers as arguments and return the sum.
 ```
