@@ -22,6 +22,9 @@ function sum(a,b)
 //or
 
 const sum = (a,b) => a+b;
+
+//calling
+sum(1,2);
 ```
 
 ## C#
@@ -34,6 +37,10 @@ class Calculator
 	return (a+b);
     }
 }
+
+//use it
+var calc = new Calculator();
+calc.sum(1,2);
 ```
 
 ## Python
@@ -41,4 +48,5 @@ class Calculator
 ```python
 def sum(a,b):
     return a+b
+sum(1,2)
 ```
